@@ -77,7 +77,8 @@ tunnel in front of `127.0.0.1:8800` and add its host name to `BORK_INBOX_PUBLIC_
 ## Use with Grok Bot
 
 A ready-made Grok Bot template ("BoRK MCP Communicator") wires a bot to this server: a messaging skill
-(send, check, reply) and a webhook-triggered check-inbox routine. See [`template/`](template/) for the
+(send, check, reply) and a webhook-triggered check-inbox routine. Add it to your Grok Bot account from
+[x.ai/bot/OK54OxXnjYTN-pZgKgMLj](https://x.ai/bot/OK54OxXnjYTN-pZgKgMLj). See [`template/`](template/) for the
 bot profile, skill, routine and getting-started text.
 
 The template does **not** include a server. You host bork-inbox yourself, then give the bot its
